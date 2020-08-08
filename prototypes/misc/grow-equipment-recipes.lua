@@ -17,11 +17,9 @@ if mods["pyrawores"] then
         results = {
             {type = "item", name = "small-lamp", amount = 4}
         },
-        icon = "__base__/graphics/icons/small-lamp.png",
-        icon_size = 32,
+        main_product = 'small-lamp',
         subgroup = "py-veganism-grow-equipment",
         order = "aaa",
-        main_product = ""
     }:add_unlock("optics")
 end
 

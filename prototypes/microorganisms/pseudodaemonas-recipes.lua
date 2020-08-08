@@ -35,7 +35,7 @@ RECIPE {
         {type = "item", name = "rocket-fuel", amount = 2}
     },
     icons = {
-        {icon = "__base__/graphics/icons/rocket-fuel.png"},
+        {icon = "__base__/graphics/icons/rocket-fuel.png", scale = 0.5},
         {icon = "__pyveganism__/graphics/icons/vegan-small.png"}
     },
     icon_size = 32,

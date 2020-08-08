@@ -8,3 +8,7 @@ require("prototypes.buildings.hidden-beacon")
 if mods["pyrawores"] then
     RECIPE("ralesia-humus"):replace_ingredient("water", "hydrogen")
 end
+
+if mods['pyalienlife'] then
+    data.raw.recipe['ralesia-humus'].results = {type = 'item', name = 'ralesias', amount = 10}
+end
