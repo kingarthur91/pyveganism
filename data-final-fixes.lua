@@ -10,5 +10,7 @@ if mods["pyrawores"] then
 end
 
 if mods['pyalienlife'] then
-    data.raw.recipe['ralesia-humus'].results = {type = 'item', name = 'ralesias', amount = 10}
+    data.raw.recipe['ralesia-humus'].results = {{type = 'item', name = 'ralesias', amount = 10}}
+    data.raw.recipe['ralesia-humus'].main_product = 'ralesias'
+    --log(serpent.block(data.raw.recipe['ralesia-humus']))
 end
